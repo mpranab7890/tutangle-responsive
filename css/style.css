@@ -401,6 +401,10 @@
         margin : 0;
     }
 
+    .header-second-left ul li a{
+        font-size: 13px;
+    }
+
     .current-tab{
         float: left;
         margin-left: 10px;
