@@ -48,8 +48,8 @@
 
 .search-input{
     background-image: url('../images/search_background.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-repeat: round;
     width: 220px;
     float: left;
 } 

@@ -274,7 +274,8 @@
 
 .entry-inner{
     background: url("../images/title-nav-bg.png");
-    background-size : 100% 100%;
+    /* background-size : 100% 100%; */
+    background-repeat: round;
 }
 
 .all-entries{
