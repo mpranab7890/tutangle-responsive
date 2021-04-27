@@ -29,6 +29,23 @@
     margin-left: 15px;
 }
 
+.hover-nav{
+    float: right;
+    height: auto;
+    width: auto;
+    display: none; 
+}
+
+.hover-nav ul li{
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.mob-menu{
+    float: right;
+    display: inline;
+}
+
 .header-first-right{
     float:right;
 }
@@ -42,7 +59,7 @@
 }
 
 .header-second-left{
-    width: 40%;
+    width: 38%;
     line-height: 15px;
     float: left;
 }

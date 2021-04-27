@@ -6,7 +6,7 @@
 
 
 .search-input{
-    background-image: url('../images/search_background.png');
+    background-image: url('../images/search-bg-resized.png');
     background-repeat: no-repeat  ;
     max-width: 100%;
     height:auto;
@@ -75,16 +75,19 @@
     margin: 0;
 }
 
+.mob-menu :hover + .hover-nav{
+    display: block;
+}
+
 .header-second-left ul li {
     padding: 8px 20px;
     margin-right: 32.5px;
-    font-size: 15px;
 }
 
 .header-second-left a{
     text-decoration: none;
     color: black;
-    font-size: 13px;
+    font-size: 11px;
 }
 
  .header-second-right span{
@@ -367,6 +370,7 @@
     .search-input{
         width: 275px;
         float: left;
+        background-image: url('../images/search_background.png');
     }
 
     .search-input input{
