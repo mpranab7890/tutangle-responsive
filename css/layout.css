@@ -36,8 +36,8 @@
 } */
 
 .search-wrapper{
-    height: 20px;
-    width: 276px;
+    width: 100%;
+    height: auto;  
 }
 
 
@@ -275,7 +275,6 @@
 .entry-inner{
     background: url("../images/title-nav-bg.png");
     /* background-size : 100% 100%; */
-    background-repeat: round;
 }
 
 .all-entries{
@@ -345,7 +344,7 @@
 
 @media screen and (min-width: 568px){
     .header-first-right{
-        display: initial;
+        display: block;
     }
 
     .hamburger-icon{
