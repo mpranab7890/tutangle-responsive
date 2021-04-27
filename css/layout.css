@@ -4,13 +4,7 @@
 
 .header-first{
     background-color: #7dd9e8;
-    /* height: 85px; */
 }
-
-/* .header-first-wrapper{
-    width: 938px;
-    margin: 0px auto;
-} */
 
 .header-first-wrapper{
     padding: 10px 15px;
@@ -21,31 +15,10 @@
     margin: 0px auto;
 }
 
-/* .header-first-left{
-    width: 62%;
-    float: left;
-
-} */
-
-/* .search-wrapper{
-    margin-top: 40px;
-    margin-left: 23px;
-    width: 336px;
-    height: 20px;
-    float: left;
-} */
-
 .search-wrapper{
     width: 100%;
     height: auto;  
 }
-
-
-
-/* .header-first-right{
-    float: right;
-} */
-
 
 .header-first-right{
     display: none;
@@ -65,29 +38,8 @@
 }
 
 .header-second, .header-second-wrapper, .header-second-left{
-    /* height: 40px; */
     background-color: #f5f5f5;
 }
-/* .header-second-wrapper{
-    height: 40px;
-    width: 938px;
-    margin: 0px auto;
-    background-color: #f5f5f5;
-} */
-
-/* .header-second-left{
-    width: 600px;
-    line-height: 15px;
-    float: left;
-}
-
-
-.header-second-right{
-    width: auto;
-    float: right;
-    text-align: right;
-    margin-top: 12px;
-} */
 
 .header-second-left{
     width: 40%;
@@ -95,36 +47,12 @@
     float: left;
 }
 
-
 .header-second-right{
     width: auto;
     float: right;
     padding: 8px 20px;
 
 }
-
-/* .body{
-    height: 604px;
-    margin-top: 30px;
-} */
-
-/* .body-wrapper{
-    width: 938px;
-    height: 100%;
-    margin: 0px auto;
-} */
-
-/* .left-nav{
-    float: left;
-    width: 194px;
-    height: 100%;
-} */
-
-/* .body{
-    width: 100%;
-    height: 604px;
-    margin-top: 30px;
-} */
 
 .body{
     width: 100%;
@@ -144,28 +72,8 @@
 
 
 .left-nav-top{
-    /* float: left; */
     height: 129px;
 }
-
-
-
-/* .left-nav-top-content{
-    background-color: #f5f5f5;
-    width: 194px;
-    height: 89px;
-} */
-
-/* .left-nav-bottom{
-    height: 475px;
-} */
-
-/* .left-nav-bottom-content{
-    background-color: #f5f5f5;
-    width: 194px;
-    height: 435px;
-
-} */
 
 .left-nav-top-content{
     background-color: #f5f5f5;
@@ -175,40 +83,17 @@
 
 
 .left-nav-bottom-content{
-    /* float: left; */
     background-color: #f5f5f5;
     width: 100%;
     height: 207px;
 
 }
 
-/* .entry-section{
-    float: left;
-    height: 100%;
-    width: 518px;
-    margin-left: 26px;
-}   */
-
 .entry-section{
-    /* height: 100%; */
-    /* width: 100%; */
     padding : 0px 8px;
     margin-top : 50px;
 
 }
-
-
-/* .right-nav{
-    height: 100%;
-    width: 174px;
-    float: right;
-}
-
-.right-nav-content{
-    background-color: #f5f5f5;
-    width: 100%;
-    height: 564px;
-} */
 
 .right-nav{
     width: 100%;
@@ -217,7 +102,6 @@
 .right-nav-content{
     background-color: #f5f5f5;
     width: 100%;
-    /* height: 310px; */
 }
 
 .entry-section-title{
@@ -227,17 +111,10 @@
     font-size: 25px;
 
 }
- /* .entries-wrapper{
-    height: 65px;
-    width: 100%;
-    background: url("../images/title-nav-bg.png");
-
-}  */
 
 .entries-wrapper{
     height: 65px;
     width: 100%;
-
 }
 
 .blue-line{
@@ -247,7 +124,6 @@
 }
 
 .entry{
-    /* height: 100px; */
     width: 100%;
 }
 
@@ -257,84 +133,36 @@
     background-color: #d8d8d8;
 }
 
- /* .entries-wrapper{
-    float: left;
-}  */
-
-/*
- .all-entries{
-    width: 258px;
-    height: 100%;
-    float: left;
-}
-
-.subscribed{
-    float: right;
-}  */
-
 .entry-inner{
     background: url("../images/title-nav-bg.png");
-    /* background-size : 100% 100%; */
 }
 
 .all-entries{
     float: left;
-
 }
 
 .subscribed{
     float: right;
 }
 
-
-
 .all-entries-tab, .subscribed-tab{
     margin-top: 12px;
 }
-
-
-/* .entry-content{
-    height: 70px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-} */
 
 .entry-content{
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-/* .entry-image{
-    float: left;
-
-} */
-
-
 .footer{
-    /* height: 45px; */
     margin-top: 32px;
     background-color: #727272;
 }
 
-/* .footer-wrapper{
-    width: 938px;
-    height: 100%;
-    margin: 0px auto;
-} */
-
 .footer-wrapper{
     width: 100%;
-    /* height: 100%; */
     margin: 0px auto;
 }
-
-
-/* .footer-left{
-    display: inline;
-    width: auto;
-    float: left;
-    padding: 18px 0px;
-} */
 
 .footer-left{
     display: inline;
@@ -343,6 +171,12 @@
 }
 
 @media screen and (min-width: 568px){
+
+    .search-wrapper{
+        width: 336px;
+        height: 20px;
+        
+    }
     .header-first-right{
         display: block;
     }
@@ -353,8 +187,6 @@
 
     .entry-content{
         height: 70px;
-        margin-top: 15px;
-        margin-bottom: 15px;
     }
 
     .entry-image{
@@ -367,7 +199,6 @@
 @media screen and (min-width: 768px){
     .entry-section{
         float: left; 
-        /* height: 100%; */
         width: 518px;
         margin-left: 26px;
         padding: 0px;
@@ -377,14 +208,12 @@
     .all-entries{
         width: 258px;
         height: 100%;
-        float: left;
     }
     
     .subscribed{
         float: right;
     }
 
-    
     .right-nav{
         height: 100%;
         width: 174px;
@@ -398,18 +227,10 @@
         height: 564px;
     }
 
-    .search-wrapper{
-        /* margin-top: 40px;
-        margin-left: 23px; */
-        width: 336px;
-        height: 20px;
-        
-    }
-
 }
 
 @media screen and (min-width: 992px){
-        .header-first-wrapper{
+    .header-first-wrapper{
         width: 938px;
         margin: 0px auto;
     }
@@ -417,7 +238,6 @@
     .header-first-left{
         width: 62%;
         float: left;
-
     }
 
     .search-wrapper{
@@ -435,14 +255,9 @@
 
     .header-second-left{
         width: 600px;
-        line-height: 15px;
-        float: left;
     }
 
-
     .header-second-right{
-        width: auto;
-        float: right;
         text-align: right;
         margin-top: 12px;
         padding : 0;
@@ -450,7 +265,8 @@
 
     .body{
         height: 604px;
-        margin-top: 30px;
+        width: 100%;
+        height: 604px;
     }
 
     .body-wrapper{
@@ -465,16 +281,8 @@
         height: 100%;
     }
 
-    .body{
-        width: 100%;
-        height: 604px;
-        margin-top: 30px;
-    }
-
     .left-nav-top-content{
-        background-color: #f5f5f5;
         width: 194px;
-        height: 89px;
     }
 
     .left-nav-bottom{
@@ -482,7 +290,6 @@
     }
 
     .left-nav-bottom-content{
-        background-color: #f5f5f5;
         width: 194px;
         height: 435px;
 
@@ -499,15 +306,10 @@
     .footer-wrapper{
         width: 938px;
         height: 100%;
-        margin: 0px auto;
     }
 
-
     .footer-left{
-        display: inline;
-        width: auto;
         float: left;
-        padding: 18px 0px;
     }
 }
 
