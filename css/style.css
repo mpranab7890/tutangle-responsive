@@ -17,7 +17,7 @@
 .search-input input{
     background: none;
     font-size: 10px;
-    max-width: 100%;
+    max-width: 75%;
     height: auto;  
     padding-left: 4px;
     border: 0;
